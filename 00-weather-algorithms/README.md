@@ -10,6 +10,8 @@ While you inspect the data, think about an algorithm you would write to have a p
 
 Remember, an algorithm is a step-by-step procedure or formula for solving a problem. It needs to be specific and well thought out. Think about how you’ll ensure your algorithm accounts for all the important factors, and be precise in the steps you choose to solve the problem.
 
+Note: In the following tables, the columns (in groupds of 3) relate to Temperature (°F), Dew Point (°F),	Humidity (%),	Wind Speed (mph),	Pressure (in) respectively. The final column represents	Precipitation (in).
+
 ## July 2023
 | Jul | Max | Avg  | Min | Max | Avg  | Min | Max | Avg  | Min | Max | Avg  | Min | Max  | Avg  | Min  | Total |
 | --- | --- | ---- | --- | --- | ---- | --- | --- | ---- | --- | --- | ---- | --- | ---- | ---- | ---- | ----- |
