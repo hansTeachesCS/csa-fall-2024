@@ -58,17 +58,17 @@ public class Weather {
     } // close main method
 
     public static int getSum(int[] nums) {
-        // STEP 1: loop to visit all nums in array
+        // STEP 1: create variable to remember total
+        int total = 0;
+
+        // STEP 2: create a loop to add all numbers in array
         for(int i = 0; i <= 61; i++) {
-            System.out.println(i);
+            // System.out.println(i);
+            total = total + nums[i];
         }
 
-        // STEP 2: add nums one at a time
-
-
-        // STEP 3: return the result
-        return -1;
-
+        // STEP 3:
+        return total;
     }
 
 
