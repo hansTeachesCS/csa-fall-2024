@@ -54,6 +54,22 @@ public class Weather {
         System.out.println();
         System.out.println(Arrays.toString(humidity24));
 
+        System.out.println(getSum(temps23));
+        System.out.println(getSum(temps24));
     } // close main method
+
+    public static int getSum(int[] nums) {
+        // STEP 1: create variable to remember total
+        int total = 0;
+
+        // STEP 2: create a loop to add all numbers in array
+        for(int i = 0; i < 62; i++) {
+            // System.out.println(i);
+            total = total + nums[i];
+        }
+
+        // STEP 3:
+        return total;
+    } // end getSum method
 
 } // close main class
