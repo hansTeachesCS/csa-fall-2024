@@ -10,9 +10,15 @@ public class Average {
 
         // STEP 3: accept and store the input
         int score1 = s.nextInt();
+        // System.out.println(score1);
 
-        System.out.println(score1);
+        System.out.print("enter your second test score: ");
+        int score2 = s.nextInt();
+        
+        System.out.print("enter your third test score: ");
+        int score3 = s.nextInt();
 
+        System.out.println("the average is: " + calculateAverage(score1, score2, score3));
     } // end main method
 
     /*
@@ -21,9 +27,8 @@ public class Average {
      * I: 3 ints
      * R: a double
      */
-    public static double calculateAverage(int a, int b, int c) {
-         
-        return -1;
+    public static double calculateAverage(int a, int b, int c) { 
+        return (a + b + c) / 3.0;
     } // end calculateAverage method
 
 
