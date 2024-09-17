@@ -16,7 +16,9 @@ public class Average {
 
         System.out.print("enter your third test: ");
         int test3 = s.nextInt();
-        System.out.println(test1 + " " + test2 + " " + test3);
+        // System.out.println(test1 + " " + test2 + " " + test3);
+
+        System.out.println("average: " + calculateAverage(test1, test2, test3));
     } // end of main method
 
     /*
@@ -26,9 +28,7 @@ public class Average {
      * R: the average (double)
      */
     public static double calculateAverage(int a, int b, int c) {
-
-
-        return -1;
+        return (a + b + c) / 3.0;
     } // end of calculateAverage method
 
 } // end Average class
