@@ -28,7 +28,12 @@ public class Average {
      * R: a double
      */
     public static double calculateAverage(int a, int b, int c) { 
-        return (a + b + c) / 3.0;
+        int total = 0;
+        total = total + a; // add test 1
+        total += b; // add test 2
+        total += c;
+        
+        return total / 3.0;
     } // end calculateAverage method
 
 
