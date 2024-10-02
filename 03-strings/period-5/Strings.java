@@ -8,8 +8,13 @@ public class Strings {
         String str = s.nextLine();
 
         // send the String to a method to test
-
+        System.out.println(middleThree(str));
 
         s.close();
     }
+
+    public static String middleThree(String s) {
+        return s.substring(s.length()/2 - 1, s.length()/2 + 2);
+    }
+
 }
